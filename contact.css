@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contact .parent_contact{
+    margin: 40px 0px;
+}
+
+.contact .parent_contact h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #222222;
+    padding-bottom: 10px;
+    position: relative;
+}
+.contact .parent_contact h3::after{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+margin: auto;
+background: #34b7a7;
+height: 3px;
+width: 50px;
+}
+.contact .parent_contact p{
+    text-align: center;
+    color: #222222;
+    padding: 10px 0px;
+font-size: 18px;
+}
+.contact .parent_contact .main_contact{
+    /* height: 80vh; */
+    /* border: 1px solid red; */
+    width: 85%;
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.contact .parent_contact .main_contact .contact1{
+    /* height: 70vh; */
+    width: 40%;
+    margin: 40px 0px;
+    /* border: 1px solid red; */
+    background: #fff;
+    border-radius: 5px;
+    /* margin: 0px 30px; */
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.contact .parent_contact .main_contact .contact1 .main_contact_first{
+    margin: 20px;
+    /* border: 1px solid red; */
+}
+.contact .parent_contact .main_contact .contact1 .contact_first{
+    /* height: 10vh; */
+    display: flex;
+padding: 15px 0px;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.contact .parent_contact .main_contact .contact1 .contact_first .adress{
+    padding: 0px 20px;
+}
+.contact .parent_contact .main_contact .contact1 .contact_first .adress .b{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.contact .parent_contact .main_contact .contact1 .contact_first .adress p{
+    padding: 0;
+    font-size: 16px;
+}
+.contact .parent_contact .main_contact .contact1 .contact_first .icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background:color-mix(in srgb, #34b7a7, transparent 92%);
+    /* border: 1px solid gray; */
+}
+.contact .parent_contact .main_contact .contact1 .contact_first .icon i{
+    font-size: 20px;
+    color: #34b7a7;
+}
+.contact .parent_contact .main_contact .contact2{
+    /* height: 70vh; */
+    width: 50%;
+        margin: 40px 0px;
+
+    /* border: 1px solid red; */
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second{
+    margin:30px 20px;
+    /* border: 1px solid red; */
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input{
+    display: flex;
+    /* padding: 0px 5px; */
+    /* justify-content: space-around; */
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .main{
+    width: 50%;
+    margin-right: 10px;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .main1{
+    width: 50%;
+    margin-left: 10px;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .main .input input{
+    padding: 10px 0px;
+    width: 100%;
+    outline: none;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .main .input input:focus{
+    border-color: skyblue;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .name{
+    font-size: 14px;
+    font-weight: bold;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .name{
+padding: 5px 0px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .main2{
+    padding: 10px 0px;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .textarea{
+    padding: 15px 0px;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .textarea textarea{
+    height: 30vh;
+    width: 100%;
+outline: none;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .textarea textarea:focus{
+  border-color: skyblue;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .input2 input{
+    width: 100%;
+    padding: 7px 0px;
+    outline: none;
+
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .input2 input:focus{
+    border-color: skyblue;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact .parent_contact .main_contact .contact2 .main_contact_second .button button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border:none;
+    background: #34b7a7;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .main1 .input input{
+    padding: 10px 0px;
+    width: 100%;
+   outline: none; 
+}
+
+.contact .parent_contact .main_contact .contact2 .main_contact_second .two_main_input .main1 .input input:focus{
+    border-color: skyblue;
+}
+
+.contact .parent_contact .main_contact .contact1 .contact_first:hover .icon{
+    background: #34b7a7;
+}
+.contact .parent_contact .main_contact .contact1 .contact_first:hover .icon i{
+    color: #fff;
+}
